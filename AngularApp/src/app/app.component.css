@@ -1,0 +1,26 @@
+.formClass{
+    display:inline-block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#personalCode, #birthDate{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#birthDateValidation, #personalCodeValidation{
+  color: red;
+}
+.button {
+   background-color: #04AA6D;
+   border: none;
+   color: white;
+   padding: 3px 32px;
+   text-decoration: none;
+   /*margin: 20px 10px 20px 20px;*/
+   cursor: pointer;
+ }
+

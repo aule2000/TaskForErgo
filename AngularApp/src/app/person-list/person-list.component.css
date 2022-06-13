@@ -1,0 +1,31 @@
+table, th, td {
+  border: 1px solid;
+}
+table {
+  width: 100%;
+  border: 1px solid;
+}
+h1{
+  text-align: center;
+  margin-top: 0px;
+}
+
+#resultTable td, #resultTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#resultTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+#resultTable tr:hover
+{
+  background-color: #ddd;
+}
+#resultTable
+tr:nth-child(even){background-color: #f2f2f2;}
